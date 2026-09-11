@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs",
+      "destination": "https://buildwithfern.com"
+    },
+    {
+      "source": "/docs/:path*",
+      "destination": "https://buildwithfern.com/:path*"
+    }
+  ]
+}
